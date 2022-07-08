@@ -118,7 +118,7 @@ text = "Locked Doors"
 [node name="OutOnlyLatchOnClose" type="Spatial" parent="HingedDoors"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -2 )
 
-[node name="LeftDoor" parent="HingedDoors/OutOnlyLatchOnClose" instance=ExtResource( 4 )]
+[node name="LeftDoor" parent="HingedDoors/OutOnlyLatchOnClose" instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0 )
 
 [node name="RightDoor" parent="HingedDoors/OutOnlyLatchOnClose" instance=ExtResource( 2 )]

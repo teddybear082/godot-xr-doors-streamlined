@@ -43,7 +43,7 @@ func _process(_delta):
 # Handle letting go of the door handle grab
 func let_go(_p_linear_velocity = Vector3(), _p_angular_velocity = Vector3()):
 	# Call the base-class to perform the drop, but with no velocity
-	.let_go()
+	.let_go(Vector3(0,0,0), Vector3(0,0,0))
 
 	# Snap the handle back to the origin
 	transform = Transform.IDENTITY

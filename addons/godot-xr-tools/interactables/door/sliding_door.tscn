@@ -58,6 +58,8 @@ mode = 1
 gravity_scale = 0.0
 script = ExtResource( 2 )
 reset_transform_on_pickup = false
+hold_method = 1
+ranged_grab_method = 0
 
 [node name="CollisionShape" type="CollisionShape" parent="SlidingDoorBody/DoorHandleOrigin/DoorHandleGrab"]
 shape = SubResource( 5 )
